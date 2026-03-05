@@ -1,0 +1,44 @@
+:root {
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+.miss-books-header {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:10vh;
+    font-size:300%;
+    font-weight: bold;
+    background-color:rgb(212, 255, 255);
+}
+
+.page-navigation {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height:5vh;
+    background-color: aqua;
+
+    & > div {
+        padding-left:1vw;
+        padding-right:1vw;
+        margin:0.5vw;
+        font-weight: bold;
+        background-color: rgb(102, 255, 255);
+        height:100%;
+        display:flex;
+        align-items: center;
+
+        & > * {
+            text-decoration: none;
+            color:black;
+            line-height:200%;
+            font-size:115%;
+        }
+    }
+}
+
+.page-container {
+    padding:5vw;
+    padding-top:2.5vw;
+}

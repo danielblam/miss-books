@@ -1,0 +1,14 @@
+.book-preview {
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    border:solid 2px black;
+
+    width:15vw;
+    height:24vw;
+    margin:0.25vw;
+}
+
+.book-image {
+    width:80%;
+}

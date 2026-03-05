@@ -1,0 +1,17 @@
+.book-edit-form-title {
+    padding-bottom:0.5vh;
+}
+
+.book-edit-form-input {
+    font-size:125%;
+    margin-bottom:1.5vh;
+    margin-right:0.5vw;
+}
+
+.text-input {
+    width: 15%;
+}
+
+.number-input {
+    width:5%;
+}

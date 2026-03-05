@@ -1,0 +1,33 @@
+.book-details-back {
+    padding-bottom:2vh;
+}
+
+.book-details-container {
+    display:flex;
+}
+
+.book-details-image {
+    padding-right:5vw;
+    width:20vw;
+    & > img {
+        width:100%;
+    }
+}
+
+.book-details-tags {
+    font-style: italic;
+}
+
+.book-details-buttons {
+    padding-top:2vw;
+    & button {
+        margin-right:1vw;
+        padding-left:1vw;
+        padding-right:1vw;
+        padding-top:1vh;
+        padding-bottom:1vh;
+
+        font-size:150%;
+    }
+}
+

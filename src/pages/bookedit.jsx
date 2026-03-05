@@ -50,13 +50,14 @@ export function BookEdit() {
                 className="book-edit-form-input text-input"
                 name="title"
                 onChange={handleChange}
-                value={!data ? "" : data.title}
+                value={!data ? inputs.title : data.title}
             />
             <div className="book-edit-form-title">Author:</div>
             <input
                 className="book-edit-form-input text-input"
                 name="author"
                 onChange={handleChange}
+                value={!data ? inputs.author : data.authors.join(", ")}
             />
             <div className="book-edit-form-title">Price:</div>
             <div className="book-edit-input-group">

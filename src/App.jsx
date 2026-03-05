@@ -1,7 +1,5 @@
 import { useState } from 'react'
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import { HomePage } from './pages/home';
 import { AboutUs } from './pages/about';
 import { BookIndex } from './pages/bookindex';
